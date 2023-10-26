@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="ru">
+	<head>
+		<meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Lesson 16. Forms</title>
+		<link rel="stylesheet" href="css/style.css">
+		<link rel="icon" href="/img/vector.svg" type="image/svg">
+		</head> 
+	<body>   
+		<div class="wrapper">	<!-- по умолчанию	 -->
+			<header class="header">Я шапка</header>
+			<main class="main">		
+				<div class="summary">
+					<div class="summary__container">
+						<form action="#" class="summary__form form-summary">
+							<div class="form-summary__title">Summary</div>
+							<div class="form-summary__subtitle">Estimate Shipping and Tax</div>
+							<div class="form-summary__text">Enter your destination to get a shipping estimate.</div>
+							<label for="select_01" class="form-summary__label">Country</label>
+							<select name="Country" id="select_01" class="form-summary__input">
+								<option value="Australia">Australia</option>
+								<option selected value="Russia">Russia</option>
+							</select>
+							<label for="input_01" class="form-summary__label">State/Province</label>
+							<input id="input_01" type="text" class="form-summary__input" name="State/Province" placeholder="State/Province" autocomplete="off">
+							<label for="input_02" class="form-summary__label">Zip/Postal Code</label>
+							<input id="input_02" type="text" class="form-summary__input" name="Zip/Postal-Code" placeholder="Zip/Postal Code" autocomplete="off">
+							<div class="form-summary__delivery">
+								<label for="input_03" class="form-summary__label">Standard Rate</label>
+								<label id="input_03" class="form-summary__caption"><input type="radio" class="form-summary__radio" name="Standard-Rate" value="1" checked>Price may vary depending on the item/destination. Shop Staff will contact you. $21.00</label>
+								<label for="input_04" class="form-summary__label">Pickup from store</label>
+								<label id="input_04" class="form-summary__caption"><input type="radio" class="form-summary__radio" name="Standard-Rate" value="2">1234 Street Adress City Address, 1234 $0.00</label>
+							</div>
+							
+							<div class="form-summary__subtitle">Apply Discount Code</div>
+							<label for="input_05" class="form-summary__label">Enter discount code</label>
+							<input id="input_05" type="text" class="form-summary__input" name="Enter-Discount-code" placeholder="Enter Discount code" autocomplete="off">
+							<button class="form-summary__button" type="submit">Apply Discount</button>
+						</form>
+					</div>
+				</div>
+
+
+
+				<div class="registered">
+					<div class="registered__container">
+						<form action="#" class="registered__form form-registered">
+							<div class="form-registered__title">Registered Customers</div>
+							<div class="form-registered__subtitle">If you have an account, sign in with your email address.</div>
+							<label for="input_01" class="form-registered__label">Email
+								<span class="form-registered__required required">*</span>
+							</label>
+							<input id="input_01" class="form-registered__item" autocomplete="off" type="email" name="email" required placeholder="Your Name">
+							<label for="input_02" class="form-registered__label">Password
+								<span class="form-registered__required required">*</span>
+							</label>
+							<input id="input_02" class="form-registered__item" autocomplete="off" type="password" name="password" required placeholder="Your paddword">
+							<div class="form-registered__link">
+								<button type="submit" class="form-registered__button button">Sign In</button>
+								<a href="#input_01" class="form-registered__forgot">Forgot Your Password?</a>
+							</div>
+							
+						</form>
+					</div>
+				</div>
+			</main>
+	<footer class="footer">Я подвал</footer>
+	</div>
+	</body>
+</html>

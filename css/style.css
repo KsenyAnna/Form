@@ -1,0 +1,220 @@
+
+/* &display=swap&subset=cyrillic-ext */ 
+@import url(https://fonts.googleapis.com/css?family=Roboto:regular,700,900,&display=swap&subset=cyrillic-ext);
+/* Обнуление стилей */
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    /* border: 0; */
+    box-sizing: border-box;
+}
+li {
+    list-style: none;
+}
+a,
+a:visited {
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: inherit;
+    font-size: inherit;
+}
+img {
+    vertical-align: top;
+}
+html,  
+body {
+    height: 100%;
+}
+html {
+    font-size: 16px; /* по умолчанию  */
+}
+body {
+	line-height: 1;
+	font-family: "Roboto";
+}
+.wrapper {
+    min-height: 100%;
+	overflow: hidden; 
+}
+ /* ----------------- */
+ .summary {
+
+ }
+.summary__container {
+    margin: 15px auto;
+    max-width: 446px;
+    background-color: #F5F7FF;
+    padding: 20px 30px;
+}
+.summary__form {
+    display: flex;
+    flex-direction: column;
+}
+.form-summary {
+}
+.form-summary__title {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 36px;
+    margin: 0px 0px 19px 0px;
+}
+.form-summary__subtitle {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    margin: 0px 0px 12px 0px;
+    max-width: 287px;
+}
+.form-summary__text {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    margin: 0px 0px 18px 0px;
+    max-width: 287px;
+}
+.form-summary__label {
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 210%;
+    margin: 0px 0px 5px 0px;
+}
+.form-summary__input {    
+    border: 1px solid #A2A6B0;
+    border-radius: 4px;
+    padding: 14px 16px;
+    margin: 0px 0px 10px 0px;
+}
+.form-summary__delivery {
+    margin: 0px 0px 29px 0px;
+    display: flex;
+    flex-direction: column;
+}
+.form-summary__caption:not(:last-child) {
+    margin: 0px 0px 8px 0px;
+}
+.form-summary__caption {
+    /* margin: 0px 0px 8px 0px; */
+}
+.form-summary__radio {
+    margin: 0px 8px 8px 0px;
+}
+.form-summary__button {
+    margin: 8px 0px 0px 0px;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 21px;
+    text-align: center;
+    color: #0156FF;
+    border: 2px solid #0156FF;
+    border-radius: 50px;   
+    padding: 12px 0px;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+
+
+
+
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+}
+.header {
+    background-color: #a2e2ff;
+    padding: 15px;
+    text-align: center;
+}
+.main {
+    flex-grow: 1;
+}
+.footer {
+    background-color: #a2e2ff;
+    padding: 15px;
+    text-align: center;
+}
+.registered {
+    padding: 21px auto;
+}
+.registered__container {
+    margin: 0px auto;
+    max-width: 564px;
+    background-color: #F5F7FF;
+    padding: 37px 60px 0px;
+}
+.registered__form {
+}
+.form-registered {
+}
+.form-registered__title {
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 27px;
+    margin: 0px 0px 12px 0px;
+}
+.form-registered__subtitle {
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 30px;
+    margin: 0px 0px 12px 0px;
+}
+.form-registered__label {
+    display: block;
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 210%;
+    margin: 0px 0px 6px 0px;
+}
+.form-registered__item {    
+    display: block;
+    padding: 15px 16px;
+    width: 100%;
+    border: 1px solid #A2A6B0;
+    border-radius: 4px;
+}
+.form-registered__item:not(:last-child) {
+    margin: 0px 0px 12px 0px;
+}
+.required {
+    color: #C94D3F;
+}
+.form-registered__link {
+    display: flex;
+    padding: 18px 0px 40px 0px;
+    column-gap: 23px;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.form-registered__button {
+}
+.button {
+    display: inline-block;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 21px;
+    color: #FFFFFF;
+    background-color: #0156FF;
+    border-radius: 50px;
+    padding: 14px 51px;
+    flex: 0 1 auto;
+    border: none;
+}
+.form-registered__forgot {
+    display: inline-block;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    flex: 0 1 auto;
+}
